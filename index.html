@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Temporizador estilo pomodoro">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <title>Focus timer - Pomodoro</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="js/main.js" type="module" defer></script>
+    <script src="js/timer.js" type="module" defer></script>
+</head>
+<body>
+    <header>
+        <button class="button-ligth-mode"><img src="./images/ligthMode.svg" alt="Ícone do modo claro"></button>
+        <button class="button-dark-mode hide"><img src="./images/darkMode.svg" alt="Ícone do modo escuro"></button>
+    </header>
+
+    <main>
+        <div class="timer-and-buttons">
+            <div class="timer">
+                <span class="minutes">25</span>
+                <span>:</span>
+                <span class="seconds">00</span>
+    
+            </div>
+            
+            <div class="buttons">
+                <button class="play"><img src="./images/play.svg" alt="Botão de play"></button>
+                <button class="pause"><img src="./images/stop.svg" alt="Botão de pause"></button>
+                <button class="increased"><img src="./images/+.svg" alt="Botão para aumentar o tempo do contador"></button>
+                <button class="decreased"><img src="./images/-.svg" alt="Botão para diminuir o tempo do contador"></button>
+
+                <button class="playDM hide"><img src="./images/playDM.svg" alt="Botão de play"></button>
+                <button class="pauseDM hide"><img src="./images/stopDM.svg" alt="Botão de pause"></button>
+                <button class="increasedDM hide"><img src="./images/+DM.svg" alt="Botão para aumentar o tempo do contador"></button>
+                <button class="decreasedDM hide"><img src="./images/-DM.svg" alt="Botão para diminuir o tempo do contador"></button>
+            </div>
+        </div>
+
+        <div class="cards">
+            <button class="forest"><img src="./images/floresta.svg" alt="Ícone de floresta"></button>
+            <button class="rain"><img src="./images/chuva.svg" alt="Ícone de chuva"></button>
+            <button class="coffe"><img src="./images/cafeteria.svg" alt="Ícone de cafeteria"></button>
+            <button class="fireplace"><img src="./images/lareira.svg" alt="Ícone de lareira"></button>
+        </div>
+    </main>
+</body>
+</html>
